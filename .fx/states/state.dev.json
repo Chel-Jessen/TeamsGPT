@@ -1,0 +1,32 @@
+{
+    "solution": {
+        "provisionSucceeded": true,
+        "teamsAppTenantId": "f347c2f8-b4cb-424e-b8de-4bb98c009651",
+        "subscriptionId": "6aed2604-4222-48b4-84d6-98d91da9000d",
+        "subscriptionName": "Azure subscription 1",
+        "tenantId": "b878f0b3-1f8e-4857-8a11-1f0ac1d542a5",
+        "needCreateResourceGroup": true,
+        "resourceGroupName": "cws6206-ChatGPT-dev-rg",
+        "location": "West Europe",
+        "resourceNameSuffix": "6a76cf"
+    },
+    "fx-resource-appstudio": {
+        "tenantId": "f347c2f8-b4cb-424e-b8de-4bb98c009651",
+        "teamsAppId": "6d17b4fd-beb4-40af-a027-0e6d8122f849"
+    },
+    "fx-resource-bot": {
+        "botId": "076f6a02-b246-4123-921d-4b6f4e53ba78",
+        "botPassword": "{{fx-resource-bot.botPassword}}",
+        "skuName": "B1",
+        "siteName": "chatgpt44c4d5bot",
+        "domain": "chatgpt44c4d5bot.azurewebsites.net",
+        "appServicePlanName": "chatgpt44c4d5bot",
+        "resourceId": "/subscriptions/6aed2604-4222-48b4-84d6-98d91da9000d/resourceGroups/cws6206-ChatGPT-dev-rg/providers/Microsoft.Web/sites/chatgpt44c4d5bot",
+        "siteEndpoint": "https://chatgpt44c4d5bot.azurewebsites.net"
+    },
+    "fx-resource-identity": {
+        "identityName": "chatgpt44c4d5",
+        "identityResourceId": "/subscriptions/6aed2604-4222-48b4-84d6-98d91da9000d/resourceGroups/cws6206-ChatGPT-dev-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/chatgpt44c4d5",
+        "identityClientId": "66a0ec8b-bf1d-4887-92c6-2a102d1fb63a"
+    }
+}

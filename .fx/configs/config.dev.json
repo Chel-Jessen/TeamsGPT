@@ -1,0 +1,18 @@
+{
+    "$schema": "https://aka.ms/teamsfx-env-config-schema",
+    "description": "You can customize the TeamsFx config for different environments. Visit https://aka.ms/teamsfx-env-config to learn more about this.",
+    "manifest": {
+        "appName": {
+            "short": "ChatGPT",
+            "full": "ChatGPT Chatbot for Teams"
+        },
+        "description": {
+            "short": "Hello I am a Chatbot who interacts with the API responsible for ChatGPT",
+            "full": "Hello I am a Chatbot who interacts with the API responsible for ChatGPT. You can ask me any question and I respond with ChatGPTs answer"
+        },
+        "icons": {
+            "color": "resources/color.png",
+            "outline": "resources/outline.png"
+        }
+    }
+}
